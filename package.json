@@ -1,6 +1,6 @@
 {
 	"scripts": {
-		"start": "tailwind -i ./src/input.css -o ./public/app.css --watch"
+		"start": "tailwind -i ./src/input.css -o ./public/output.css --watch"
 	},
 	"devDependencies": {
 		"tailwindcss": "^3.0.23"
