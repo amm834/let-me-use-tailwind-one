@@ -522,3 +522,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 .p-5 {
   padding: 1.25rem;
 }
+
+.hover\:p-21:hover {
+  padding: 21rem;
+}

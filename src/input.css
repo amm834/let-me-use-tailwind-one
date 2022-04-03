@@ -7,3 +7,16 @@
         @apply bg-indigo-500 px-4 py-2 text-white rounded
     }
 }
+
+@layer utilities {
+    .p-21 {
+        padding: 21rem;
+    }
+
+    @variants focus , hover {
+        .p-21 {
+            padding: 21rem;
+        }
+
+    }
+}
