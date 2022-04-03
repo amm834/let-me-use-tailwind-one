@@ -9,3 +9,9 @@
 .btn-blue {
     @apply bg-blue-500 hover:bg-blue-500
 }
+
+@layer base {
+    a {
+        @apply text-blue-500 underline;
+    }
+}
